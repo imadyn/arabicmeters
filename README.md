@@ -1,5 +1,5 @@
 # arabicmeters
-Data of 16 Arabic meters with meters keys generating rhythms
+Data of 16 Arabic meters with meters keys generating rhythms \\
 Java file BahrB_$x$ and BahrB_$x$Bis compiled will generate Sql files  
 You must create a DataBase MySql  with name metarab  with two table bahr_combine (`id_increment`,`code_bahr`, `taille`, `valeur_rhythm`) and bahr_combine_bis (`id_increment`,`code_bahr`, `taille`, `valeur_rhythm`) or change the names in the java file
 Execute the Sql file to generate Data

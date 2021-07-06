@@ -1,6 +1,6 @@
 # arabicmeters
 * Data of 16 Arabic meters with meters keys generating rhythms.
-* Java file BahrB_$x$ and BahrB_$x$Bis compiled will generate Sql files.  
+* Java file BahrB_$x$ and BahrB_$x$Bis when compiled will generate Sql files.  
 * You must create a DataBase with name metarab  with two table bahr_combine (`id_increment`,`code_bahr`, `taille`, `valeur_rhythm`) and bahr_combine_bis (`id_increment`,`code_bahr`, `taille`, `valeur_rhythm`) or change the names in the java files.
 * Execute the Sql file to generate Data.
 * bahr_combine contains : 'id_increment' incremental ID ;  'code_bahr' the meter identifier (B1 ... B16) ; 'valeur_rhythm' Rhythmic value is a String of {0,1} , 'taille' lenght of the rhythmic value.

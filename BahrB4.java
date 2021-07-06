@@ -49,7 +49,7 @@ public class BahrB4 {
 						
 						
 								chaine = darb.concat(t7[i2].concat(aroud.concat(t7[i1])));
-								taille =  t7[i1].length() + t7[i2].length() +  14;
+								taille =  t7[i1].length() + t7[i2].length() + darb.length() + aroud.length();
 						
 									fw.write(" INSERT INTO metarab.bahr_combine (`code_bahr`, `taille`, `valeur_rhythm`) VALUES  ");
 									fw.write("('B4', ' " + taille + "' , '" +  chaine + " '); \n");
@@ -70,7 +70,7 @@ public class BahrB4 {
 						
 						
 								chaine = darb.concat(t7[i5].concat(t7[i4].concat(aroud.concat(t7[i2].concat(t7[i1])))));
-								taille =  t7[i1].length() + t7[i2].length() + t7[i4].length() + t7[i5].length() + 14;
+								taille =  t7[i1].length() + t7[i2].length() + t7[i4].length() + t7[i5].length() + darb.length() + aroud.length();
 						
 									fw.write(" INSERT INTO metarab.bahr_combine (`code_bahr`, `taille`, `valeur_rhythm`) VALUES  ");
 									fw.write("('B4', ' " + taille + "' , '" +  chaine + " '); \n");
